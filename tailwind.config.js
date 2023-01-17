@@ -18,6 +18,7 @@ module.exports = {
       "main-red": "#EE1C47",
       "main-orange": "#FF823A",
       "main-gray": "#676C7B",
+      "red-dark": "#ce0b32",
       white: "rgb(248 250 252)",
       gold: "#FFD700",
       transparent: "transparent",
