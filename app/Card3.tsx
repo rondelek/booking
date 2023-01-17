@@ -10,12 +10,12 @@ export default function Card3({ user }: Props) {
       <div className="flex items-center mb-4 space-x-4">
         <img className="w-10 h-10 rounded-full" src={user.image} alt="avatar" />
         <div className="space-y-1 font-medium dark:text-white">
-          <p>
+          <div>
             {user.name}
-            <div className="block text-sm text-gray-500 dark:text-gray-400">
+            <p className="block text-sm text-gray-500 dark:text-gray-400">
               {user.date}
-            </div>
-          </p>
+            </p>
+          </div>
         </div>
       </div>
       <div className="flex items-center mb-1">

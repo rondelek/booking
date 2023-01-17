@@ -15,9 +15,13 @@ export default function Card1({ place }: Props) {
     setIsLiked(!isLiked);
   };
   return (
-    <div className="bg-white max-w-sm rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-      <a className="relative">
-        <img className="rounded-t-lg" src={place.image} alt="" />
+    <div className="card overflow-hidden">
+      <a className="relative max-w-sm">
+        <img
+          className="rounded-t-lg hover:scale-110 duration-300"
+          src={place.image}
+          alt=""
+        />
         <HeartIcon
           onClick={handleLike}
           className={`${

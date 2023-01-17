@@ -4,9 +4,9 @@ type Props = {
 
 export default function Card2({ category }: Props) {
   return (
-    <div className="relative w-88 h-[28rem] my-4 rounded-lg shadow-md overflow-hidden">
+    <div className="relative w-88 h-[28rem] my-4 card overflow-hidden">
       <img
-        className="-z-10 w-full h-auto overflow-hidden"
+        className="-z-10 w-full h-auto overflow-hidden hover:scale-110 duration-200"
         src={category.image}
         alt="image description"
       />

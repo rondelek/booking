@@ -2,13 +2,13 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="bg-white dark:bg-gray-900 px-2">
+    <footer className="card px-2">
       <div className="grid grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
         <div>
-          <h2 className="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-gray-400">
+          <h2 className="mb-6 text-sm font-semibold text-main-gray uppercase">
             Company
           </h2>
-          <ul className="text-gray-500 dark:text-gray-400">
+          <ul className="text-main-gray">
             <li className="mb-4">
               <a href="#" className=" hover:underline">
                 About
@@ -32,10 +32,10 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h2 className="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-gray-400">
+          <h2 className="mb-6 text-sm font-semibold text-main-gray uppercase">
             Help center
           </h2>
-          <ul className="text-gray-500 dark:text-gray-400">
+          <ul className="text-main-gray">
             <li className="mb-4">
               <a href="#" className="hover:underline">
                 Discord Server
@@ -59,10 +59,10 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h2 className="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-gray-400">
+          <h2 className="mb-6 text-sm font-semibold text-main-gray uppercase">
             Legal
           </h2>
-          <ul className="text-gray-500 dark:text-gray-400">
+          <ul className="text-main-gray">
             <li className="mb-4">
               <a href="#" className="hover:underline">
                 Privacy Policy
@@ -81,10 +81,10 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h2 className="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-gray-400">
+          <h2 className="mb-6 text-sm font-semibold text-main-gray uppercase">
             Download
           </h2>
-          <ul className="text-gray-500 dark:text-gray-400">
+          <ul className="text-main-gray">
             <li className="mb-4">
               <a href="#" className="hover:underline">
                 iOS
@@ -109,7 +109,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
-        <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">
+        <span className="text-sm text-main-gray dark:text-gray-300 sm:text-center">
           © 2023 <a>Ewelina Nowak</a>. All Rights Reserved.
         </span>
         <div className="flex mt-4 space-x-6 sm:justify-center md:mt-0">

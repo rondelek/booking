@@ -2,7 +2,6 @@
 
 import {
   CalendarDaysIcon,
-  GlobeAltIcon,
   GlobeAmericasIcon,
   MapPinIcon,
 } from "@heroicons/react/24/solid";
@@ -27,8 +26,8 @@ export default function HowItWorks() {
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
       >
-        <div className="flex flex-col gap-4 text-center justify-between items-center p-4 leading-normal">
-          <MapPinIcon className="h-20 w-20 p-4 text-main-red rounded-3xl bg-main-red bg-opacity-10" />
+        <div className="how-works-bg">
+          <MapPinIcon className="how-works-icon" />
           <h5 className="mb-2 text-xl font-semibold tracking-tight">
             Choose the location
           </h5>
@@ -41,8 +40,8 @@ export default function HowItWorks() {
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
       >
-        <div className="flex flex-col gap-4 text-center justify-between items-center p-4 leading-normal">
-          <CalendarDaysIcon className="h-20 w-20 p-4 text-main-red rounded-3xl bg-main-red bg-opacity-10" />
+        <div className="how-works-bg">
+          <CalendarDaysIcon className="how-works-icon" />
           <h5 className="mb-2 text-xl font-semibold tracking-tight">
             Choose the date
           </h5>
@@ -55,10 +54,10 @@ export default function HowItWorks() {
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
       >
-        <div className="flex flex-col gap-4 text-center justify-between items-center p-4 leading-normal">
-          <GlobeAmericasIcon className="h-20 w-20 p-4 text-main-red rounded-3xl bg-main-red bg-opacity-10" />
+        <div className="how-works-bg">
+          <GlobeAmericasIcon className="how-works-icon" />
           <h5 className="mb-2 text-xl font-semibold tracking-tight">
-            Explore our listings!
+            Explore our listing!
           </h5>
         </div>
       </motion.h2>
