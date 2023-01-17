@@ -6,3 +6,8 @@ type Place = {
   price: number;
   rating: number;
 };
+
+type Category = {
+  name: string;
+  image: string;
+};

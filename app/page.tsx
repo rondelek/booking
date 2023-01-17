@@ -1,5 +1,6 @@
 import React from "react";
 import HowItWorks from "./HowItWorks";
+import PopularCategories from "./PopularCategories";
 import PopularPlaces from "./PopularPlaces";
 import Searchbox from "./Searchbox";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <Searchbox />
       <PopularPlaces />
       <HowItWorks />
+      <PopularCategories />
     </div>
   );
 }

@@ -6,6 +6,13 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    extend: {
+      backgroundImage: {
+        wedding: "url('/wedding.jpg')",
+        hiking: "url('/hiking.jpg')",
+        luxurious: "url('/luxurious.jpg')",
+      },
+    },
     colors: {
       "main-dark": "#09153D",
       "main-red": "#EE1C47",
